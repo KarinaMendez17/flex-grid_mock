@@ -22,6 +22,7 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+    background-color: gray;
 }
 
 .container-top {
@@ -31,6 +32,7 @@ img {
     grid-gap: 30px;
     width: 1000px;
     padding: 30px;
+    background-color: black;
 }
 
 .int-cont1 {
@@ -58,12 +60,14 @@ img {
 }
 
 .container-bottom {
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 30px;
     width: 1000px;
     padding: 30px;
+    background-color: black;
 }
 
 .bot-cont1 {
